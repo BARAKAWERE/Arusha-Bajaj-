@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ARUSHA BAJAJ (TRICYCLE) GUIDED CITY TOUR</title>
+<meta name="description" content="Arusha Bajaji — fast, affordable tricycle rides and guided city tours across Arusha, Tanzania. Call or WhatsApp to book.">
+<link rel="icon" href="images/logo.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">
+      <span class="brand-mark" aria-label="Arusha Bajaj logo">
+        <img src="images/logo.png" alt="Arusha Bajaj logo">
+      </span>
+      ARUSHA BAJAJ<br><span class="brand-sub">(TRICYCLE) GUIDED CITY TOUR</span>
+    </div>
+    <div class="nav-links">
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#tour" data-i18n="nav_tours">City Tours</a>
+      <a href="#pricing" data-i18n="nav_pricing">Pricing</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </div>
+    <a href="#contact" class="nav-cta desktop-only" data-i18n="nav_callnow">Call Now</a>
+    <button class="lang-toggle" id="langToggle" type="button">SW</button>
+    <button class="burger" id="burgerBtn" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+  <div class="mobile-panel" id="mobilePanel">
+    <a href="#services" data-i18n="nav_services">Services</a>
+    <a href="#tour" data-i18n="nav_tours">City Tours</a>
+    <a href="#pricing" data-i18n="nav_pricing">Pricing</a>
+    <a href="#contact" data-i18n="nav_contact">Contact</a>
+    <a href="#contact" class="nav-cta mobile-cta" data-i18n="nav_callnow">Call Now</a>
+    <button class="lang-toggle" id="langToggleMobile" type="button" style="display:block; margin:8px auto 0;">SW</button>
+  </div>
+
+</header>
+
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow anim-in delay-0" data-i18n="hero_eyebrow">Arusha, Tanzania</span>
+      <h1 class="anim-in delay-1" data-i18n="hero_h1">Your bajaji, <em>your route</em>, your city.</h1>
+      <p class="lead anim-in delay-2" data-i18n="hero_lead">Fast, reliable bajaji rides across Arusha and thoughtfully planned city tours — from the Clock Tower to the Maasai Market, we get you there safely and affordably.</p>
+      <div class="btn-row anim-in delay-3">
+        <a href="#contact" class="btn btn-primary" data-i18n="btn_call">📞 Call / WhatsApp</a>
+        <a href="#tour" class="btn btn-ghost" data-i18n="btn_routes">See Tour Routes →</a>
+      </div>
+    </div>
+    <div class="route-card anim-in delay-4" style="background: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/Clock-Tower.jpeg') center/cover no-repeat;">
+      <h3 class="mono" data-i18n="route_title">TODAY'S ROUTE — ARUSHA CITY</h3>
+      <div class="route-svg-wrap">
+        <svg width="100%" height="100%" viewBox="0 0 320 230" fill="none" class="route-svg">
+          <path class="route-path" d="M20 20 C 100 20, 60 100, 150 100 S 220 190, 300 190" stroke="rgba(243,234,217,0.4)" stroke-width="2" stroke-dasharray="1 9" stroke-linecap="round"/>
+        </svg>
+        <div class="route-stop delay-5" style="top:8px; left:6px;"><span class="dot red"></span> Main Bus Stand</div>
+        <div class="route-stop delay-6" style="top:88px; left:120px;"><span class="dot"></span> Clock Tower</div>
+        <div class="route-stop delay-7" style="top:150px; left:190px;"><span class="dot green"></span> Maasai Market</div>
+        <div class="route-stop delay-8" style="top:178px; left:230px; transform:translateX(-10%);"><span class="dot red"></span> Cultural Heritage Centre</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="services" style="background: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/services.jpeg') center/cover no-repeat;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="services_kicker">Our Services</span>
+      <h2 data-i18n="services_h2">Not just a bajaji — your travel partner.</h2>
+      <p data-i18n="services_p">Pick the service that fits — from a quick ride across town to a full-day tour.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service reveal" style="background-image: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/customers.jpeg'); background-size: cover; background-position: center;">
+        <span class="num mono">01</span>
+        <h3 data-i18n="service1_h3">City Rides</h3>
+        <p data-i18n="service1_p">Quick trips around Arusha — market, office, or home, any time of day.</p>
+      </div>
+      <div class="service reveal reveal-1" style="background-image: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/mnara-mwenge.jpeg'); background-size: cover; background-position: center;">
+        <span class="num mono">02</span>
+        <h3 data-i18n="service2_h3">City Tours</h3>
+        <p data-i18n="service2_p">Planned tours of Arusha's landmark spots, for visitors and locals exploring the city.</p>
+      </div>
+      <div class="service reveal reveal-2" style="background-image: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/arusha-airport.jpeg'); background-size: cover; background-position: center;">
+        <span class="num mono">03</span>
+        <h3 data-i18n="service3_h3">Airport Transfers</h3>
+        <p data-i18n="service3_p">Pickup and drop-off at Kilimanjaro International (JRO) and Arusha Airport, on time.</p>
+      </div>
+      <div class="service reveal reveal-3" style="background-image: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/arusha-city.jpeg'); background-size: cover; background-position: center;">
+        <span class="num mono">04</span>
+        <h3 data-i18n="service4_h3">Hourly Hire</h3>
+        <p data-i18n="service4_p">A bajaji at your own pace — errands, events, or small group outings.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="signature-light">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="gallery_kicker">Gallery</span>
+      <h2 data-i18n="gallery_h2">See the bajaji, see the city.</h2>
+      <p data-i18n="gallery_p">A glimpse of our rides, colorful markets, and unforgettable city tours.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="photo-slot g1 reveal">
+        <img src="images/arusha-city.jpeg" alt="Bajaji fleet in Arusha" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="photo-slot reveal reveal-1">
+        <img src="images/local-Market.jpeg" alt="Local market in Arusha" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="photo-slot reveal reveal-2">
+        <img src="images/Clock-Tower.jpeg" alt="Arusha Clock Tower" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="photo-slot reveal reveal-3">
+        <img src="images/tour-heritage-centre.jpeg" alt="Cultural Heritage Centre" loading="lazy" onerror="this.style.display='none'">
+      </div>
+      <div class="photo-slot reveal reveal-1">
+        <img src="images/mnara-mwenge.jpeg" alt="Mnara wa Mwenge monument" loading="lazy" onerror="this.style.display='none'">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="highlights" class="signature-dark">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="highlights_kicker">Tour Highlights</span>
+      <h2 data-i18n="highlights_h2">What makes our city tour unforgettable.</h2>
+      <p data-i18n="highlights_p">Four experiences that show you the real Arusha — its heritage, its markets, its history, and its flavors.</p>
+    </div>
+    <div class="highlight-grid">
+      <div class="highlight-card reveal">
+        <div class="highlight-photo"><img src="images/tour-heritage-centre.jpeg" alt="Cultural Heritage Centre" loading="lazy" onerror="this.style.display='none'"></div>
+        <span class="highlight-num mono">01</span>
+        <h3 data-i18n="hl1_h3">Cultural Heritage Centre</h3>
+        <p data-i18n="hl1_p">Enjoy the warmth of our experienced city tour guides while riding in tricycles (tuktuks) as you explore the unique beauty, cultural and artistic heritage of Arusha city at the Cultural Heritage Centre.</p>
+      </div>
+      <div class="highlight-card reveal reveal-1">
+        <div class="highlight-photo"><img src="images/soko-kuu.jpeg" alt="Soko Kuu Central Market" loading="lazy" onerror="this.style.display='none'"></div>
+        <span class="highlight-num mono">02</span>
+        <h3 data-i18n="hl2_h3">Soko Kuu (Central Market)</h3>
+        <p data-i18n="hl2_p">Experience the heartbeat of Tanzanian daily life by visiting the Central Market, wandering through stalls packed with fresh tropical fruits, vegetables, and local spices.</p>
+      </div>
+      <div class="highlight-card reveal reveal-2">
+        <div class="highlight-photo"><img src="images/bomamuseum.jpeg" alt="Boma National Natural History Museum" loading="lazy" onerror="this.style.display='none'"></div>
+        <span class="highlight-num mono">03</span>
+        <h3 data-i18n="hl3_h3">Boma Museum</h3>
+        <p data-i18n="hl3_p">Visit the historic German fortified fort (Boma), today the National Natural History Museum, and learn about human evolution, wildlife, and local history and culture.</p>
+      </div>
+      <div class="highlight-card reveal reveal-3">
+        <div class="highlight-photo"><img src="images/local-food.jpeg" alt="Local Tanzanian food - nyama choma" loading="lazy" onerror="this.style.display='none'"></div>
+        <span class="highlight-num mono">04</span>
+        <h3 data-i18n="hl4_h3">Taste of Arusha</h3>
+        <p data-i18n="hl4_p">Celebrate and enjoy the famous local food — nyama choma (roasted meat) and kachumbari (tomato and onion salad) with rice and grilled bananas at our favorite restaurants.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tour" class="itinerary signature-glow">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="tour_kicker">Popular Tour</span>
+      <h2 data-i18n="tour_h2">Arusha City Tour Route</h2>
+      <p data-i18n="tour_p">A sample half-day itinerary — we can adjust it to fit your time and interests.</p>
+    </div>
+
+    <div class="ticket reveal">
+      <div class="photo-slot thumb"><img src="images/Clock-Tower.jpeg" alt="Clock Tower" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="stop-line">
+        <h4 data-i18n="tk1_h4">Clock Tower</h4>
+        <p data-i18n="tk1_p">A famous starting point — local legend places it at the midpoint between Cape Town and Cairo.</p>
+      </div>
+      <span class="tag" data-i18n="tk1_tag">Photos &amp; History</span>
+    </div>
+    <div class="ticket reveal reveal-1">
+      <div class="photo-slot thumb"><img src="images/masaimarket.jpeg" alt="Maasai Market" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="stop-line">
+        <h4 data-i18n="tk2_h4">Maasai Market</h4>
+        <p data-i18n="tk2_p">Shop handmade crafts, shuka fabrics, and local gifts straight from the traders.</p>
+      </div>
+      <span class="tag" data-i18n="tk2_tag">Shopping</span>
+    </div>
+    <div class="ticket reveal reveal-2">
+      <div class="photo-slot thumb"><img src="images/tour-heritage-centre.jpeg" alt="Cultural Heritage Centre" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="stop-line">
+        <h4 data-i18n="tk3_h4">Cultural Heritage Centre</h4>
+        <p data-i18n="tk3_p">A museum and contemporary African art space — a great place to learn about Tanzania's history.</p>
+      </div>
+      <span class="tag" data-i18n="tk3_tag">Culture</span>
+    </div>
+    <div class="ticket reveal reveal-2">
+      <div class="photo-slot thumb"><img src="images/bomamuseum.jpeg" alt="Boma Museum" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="stop-line">
+        <h4 data-i18n="tk4_h4">Boma Museum</h4>
+        <p data-i18n="tk4_p">Historic collections and exhibitions showcasing Arusha's past — a compact cultural stop.</p>
+      </div>
+      <span class="tag" data-i18n="tk4_tag">History</span>
+    </div>
+    <div class="ticket reveal reveal-3">
+      <div class="photo-slot thumb"><img src="images/meru-waterfals.jpeg" alt="Meru Waterfall" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="stop-line">
+        <h4 data-i18n="tk5_h4">Meru Waterfall</h4>
+        <p data-i18n="tk5_p">A natural setting right in the middle of the city — a good spot to relax and take photos before lunch.</p>
+      </div>
+      <span class="tag" data-i18n="tk5_tag">Nature</span>
+    </div>
+    <div class="ticket reveal reveal-3">
+      <div class="photo-slot thumb"><img src="images/arusha-city.jpeg" alt="Return trip" loading="lazy" onerror="this.style.display='none'"></div>
+      <div class="stop-line">
+        <h4 data-i18n="tk6_h4">Return to Town / Hotel</h4>
+        <p data-i18n="tk6_p">We take you back safely to where you started, or continue on toward Ngorongoro or Momella on request.</p>
+      </div>
+      <span class="tag" data-i18n="tk6_tag">Wrap Up</span>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" style="background: linear-gradient(rgba(36,29,24,0.9), rgba(36,29,24,0.9)), url('images/arusha-city.jpeg') center/cover no-repeat;">
+  <div class="wrap">
+    <div class="section-head reveal" style="max-width:720px; margin-left:auto; margin-right:auto; text-align:center;">
+      <span class="kicker" style="display:block; text-align:center;" data-i18n="pricing_kicker">Pricing</span>
+      <h2 data-i18n="pricing_h2">Affordable prices, friendly to everyone.</h2>
+      <p data-i18n="pricing_p">We don't post fixed prices here because every trip is different — distance, duration, and your needs. Tell us your trip below and get a fair price on WhatsApp in seconds.</p>
+    </div>
+
+    <form class="price-form" onsubmit="sendPriceRequest(event)">
+      <div class="trip-type-row">
+        <button type="button" class="trip-chip active" data-trip="city" data-i18n="trip_city">City Ride</button>
+        <button type="button" class="trip-chip" data-trip="half" data-i18n="trip_half">Half-Day Tour</button>
+        <button type="button" class="trip-chip" data-trip="full" data-i18n="trip_full">Full-Day Tour</button>
+        <button type="button" class="trip-chip" data-trip="airport" data-i18n="trip_airport">Airport Transfer</button>
+        <button type="button" class="trip-chip" data-trip="hourly" data-i18n="trip_hourly">Hourly Hire</button>
+      </div>
+
+      <div class="price-form-row">
+        <div class="price-form-field">
+          <input type="text" id="priceFrom" placeholder="Where are you now?" data-i18n-placeholder="ph_from" required>
+          <button type="button" class="mini-loc-btn" onclick="fillLocationField('priceFrom')" data-i18n="loc_btn_mini">📍 Use My Location</button>
+        </div>
+        <div class="price-form-field">
+          <input type="text" id="priceTo" placeholder="Where are you going / trip notes" data-i18n-placeholder="ph_to">
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary price-submit-btn" data-i18n="price_submit">💬 Get My Price on WhatsApp</button>
+      <p id="priceFormStatus" class="price-form-status"></p>
+    </form>
+  </div>
+</section>
+
+<section style="background: linear-gradient(rgba(36,29,24,0.85), rgba(36,29,24,0.85)), url('images/coments.jpeg') center/cover no-repeat;">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="kicker" data-i18n="reviews_kicker">Customer Reviews</span>
+      <h2 data-i18n="reviews_h2">What riders are saying.</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi reveal">
+        <p class="quote" data-i18n="testi1_quote">"The driver was polite and knew every corner of the city. The tour was short but memorable."</p>
+        <div class="who"><div class="photo-slot round avatar"></div><div><div class="name">Amina S.</div><div class="role" data-i18n="testi1_role">Arusha Resident</div></div></div>
+      </div>
+      <div class="testi reveal reveal-1">
+        <p class="quote" data-i18n="testi2_quote">"Booked the half-day tour before our Serengeti trip — great value and very reliable pickup time."</p>
+        <div class="who"><div class="photo-slot round avatar"></div><div><div class="name">James K.</div><div class="role" data-i18n="testi2_role">Tourist, UK</div></div></div>
+      </div>
+      <div class="testi reveal reveal-2">
+        <p class="quote" data-i18n="testi3_quote">"I use it for my daily commute to work. Fair prices and never late."</p>
+        <div class="who"><div class="avatar"></div><div><div class="name">Baraka M.</div><div class="role" data-i18n="testi3_role">Regular Customer</div></div></div>
+      </div>
+    </div>
+
+    <div style="background: linear-gradient(rgba(36,29,24,0.88), rgba(36,29,24,0.88)), url('images/coments.jpeg') center/cover no-repeat; border: 1px solid var(--line); border-radius: 16px; padding: 26px; margin-top: 30px;">
+      <h3 style="color: var(--bone); margin-bottom: 20px; font-family: 'Fraunces', serif;" data-i18n="disqus_h3">Leave a Review & Comment</h3>
+      <div id="disqus_thread"></div>
+      <script>
+        var disqus_config = function () {
+          this.page.url = window.location.href;
+          this.page.identifier = window.location.pathname;
+        };
+        (function () {
+          var d = document, s = d.createElement('script');
+          s.src = 'https://arusha-bajaj-tours.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+        })();
+      </script>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="contact" style="background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('images/back-ground-hero.jpeg'); background-size: cover; background-position: center;">
+      <div>
+        <h2 data-i18n="contact_h2">Plan your ride today.</h2>
+        <p data-i18n="contact_p">Call us, message on WhatsApp, or fill the form — we'll reply quickly to confirm your bajaji and schedule.</p>
+        <div class="contact-list" style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+          <div class="contact-item">
+            <div class="icn">☎</div>
+            <div>
+              <div class="label" data-i18n="lbl_phone">PHONE</div>
+              <div class="val"><a href="tel:+255785591980" style="white-space:nowrap;">+255 785591980</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icn" style="background:#25D366; border-color:#25D366;">💬</div>
+            <div>
+              <div class="label" data-i18n="lbl_whatsapp">WHATSAPP</div>
+              <div class="val"><a href="https://wa.me/255785591980?text=Hello!%20I%20would%20like%20to%20book%20a%20ride" target="_blank" style="text-decoration:underline; white-space:nowrap;">+255 785591980</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icn">✉</div>
+            <div>
+              <div class="label" data-i18n="lbl_email">EMAIL</div>
+              <div class="val">
+                <a href="mailto:barakawere830@gmail.com" onclick="copyEmail(event, 'barakawere830@gmail.com')" style="text-decoration:underline; cursor:pointer;" title="Click to email or copy">barakawere830@gmail.com</a>
+                <span id="copyMsg" style="font-size:0.75rem; color:#4cd137; margin-left:5px; display:none;">(Copied!)</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icn">📍</div>
+            <div>
+              <div class="label" data-i18n="lbl_location">LOCATION</div>
+              <div class="val" data-i18n="val_location">Arusha, Tanzania</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="icn">⏱</div>
+            <div>
+              <div class="label" data-i18n="lbl_hours">OPERATING HOURS</div>
+              <div class="val" style="white-space:nowrap;" data-i18n="val_hours">Every day, 06:00 - 22:00</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:26px; padding:18px; border:1px dashed var(--line); border-radius:14px;">
+          <div style="font-weight:600; margin-bottom:8px;" data-i18n="loc_title">📍 Where are you now?</div>
+          <p style="color:var(--bone-dim); font-size:0.9rem; margin-bottom:12px;" data-i18n="loc_p">Tap below to send your current location straight to WhatsApp, so the driver can find you faster.</p>
+          <button type="button" class="btn btn-primary" onclick="shareLocation()" data-i18n="loc_btn">📍 Share My Location</button>
+          <p id="locationStatus" style="font-size:0.85rem; margin-top:10px; color:var(--bone-dim);"></p>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="sendToWhatsApp(event)">
+        <input type="text" id="guestName" placeholder="Your name" required data-i18n-placeholder="ph_name">
+        <input type="tel" id="guestPhone" placeholder="Phone number" required data-i18n-placeholder="ph_phone">
+        <textarea id="guestTrip" rows="3" placeholder="Tell us about the trip you need (e.g. half-day tour, Saturday morning)" required data-i18n-placeholder="ph_trip"></textarea>
+        <button type="submit" data-i18n="form_btn">Send Booking Request</button>
+        <div class="form-note" style="margin-top:8px;" data-i18n="form_note">By clicking, you will be redirected to WhatsApp to send your booking request directly. If you shared your location above, it will be included automatically.</div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <div data-i18n="footer1">© 2026 Meru Bajaji, Arusha. All rights reserved.</div>
+  <div data-i18n="footer2">Website design — a starting template for your business.</div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
